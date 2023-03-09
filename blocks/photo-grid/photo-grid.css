@@ -11,12 +11,12 @@
     .photo-grid {
         padding-top: 92px;
         margin: 0 auto;
-        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-template-columns: repeat(4, minmax(284px, 1fr));
         gap: 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid {
         width: calc(100% - 48px);
         padding-top: 92px;
@@ -24,9 +24,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
-        width: 288px;
+        width: calc(100% - 32px);
         padding-top: 64px;
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     }

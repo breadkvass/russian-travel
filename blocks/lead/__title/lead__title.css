@@ -3,26 +3,14 @@
     font-size: 96px;
     line-height: 100px;
     font-weight: 900;
-    width: calc(100% - 208px);
+    width: 720px;
     text-align: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 767px) {
     .lead__title {
-        width: calc(100% - 264px);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .lead__title {
-        width: calc(100% - 48px);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead__title {
+        width: 288px;
         font-size: 40px;
         line-height: 44px;
-        width: calc(100% - 32px);
     }
 }

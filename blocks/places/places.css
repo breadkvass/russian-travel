@@ -5,18 +5,30 @@
     flex-direction: column;
     gap: 80px;
     padding-bottom: 92px;
+    width: calc(100% - 96px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .places {
-        gap: 73px;
-        padding-bottom: 90px;
+        gap: 80px;
+        width: calc(100% - 296px);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
+    .places {
+        gap: 73px;
+        padding-top: 88px;
+        padding-bottom: 90px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
     .places {
         gap: 50px;
+        padding-top: 64px;
         padding-bottom: 66px;
+        width: 100%;
     }
 }
