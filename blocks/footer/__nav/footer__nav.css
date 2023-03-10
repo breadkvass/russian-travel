@@ -11,7 +11,5 @@
     .footer__nav {
         flex-direction: column;
         gap: 32px;
-        margin: 0;
-        padding: 0;
     }
 }

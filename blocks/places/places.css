@@ -20,7 +20,7 @@
         gap: 73px;
         padding-top: 88px;
         padding-bottom: 90px;
-
+        width: calc(100% - 48px);
     }
 }
 

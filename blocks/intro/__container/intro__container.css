@@ -24,8 +24,6 @@
     .intro__container {
         padding-top: 64px;
         padding-right: 0;
-        padding-left: 0;
         width: calc(100% - 32px); 
-        margin: 0 auto;
     }
 }
