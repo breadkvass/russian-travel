@@ -7,3 +7,6 @@
 
 ## Запуск
 Открыть index.html в браузере
+
+## GitHub
+Проект размещен на GitHub https://github.com/breadkvass/russian-travel
