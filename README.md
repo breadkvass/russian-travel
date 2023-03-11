@@ -9,4 +9,4 @@
 Открыть index.html в браузере
 
 ## GitHub
-Проект размещен на GitHub https://github.com/breadkvass/russian-travel
+Проект размещен на GitHub Pages https://breadkvass.github.io/russian-travel/
